@@ -3,9 +3,10 @@ SŁIMPØST
 
 Minimal theme for Ghost
 
-**UPDATE**: Now Slimpost looks great on any mobile device!
+**UPDATE 28-10-2013**: Now Slimpost looks great on any mobile device!
 
 <img src="https://raw.github.com/bzhnyau/slimpost/master/S31028-205539.jpg" style="width: 300px;"/>
+
 <img src="https://raw.github.com/bzhnyau/slimpost/master/S31028-205607.jpg" style="width: 300px;"/>
 
 ##Theme preview
