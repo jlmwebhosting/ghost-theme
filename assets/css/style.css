@@ -56,6 +56,15 @@
     color: #fff;
 }
 
+.icon-google-plus {
+    background-color: #D8684D;
+}
+
+.icon-google-plus:hover {
+    background-color: #C2492F;
+    color: #FFFFFF;
+}
+
 .icon-facebook {
     background-color: #637FBF;
 }
