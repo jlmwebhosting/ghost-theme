@@ -285,26 +285,19 @@ HR {
     color: #888;
 }
 
-.social-links:before {
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    width: 215px;
-    height: 3px;
-    background: #ccc;
-    content: "";
-    vertical-align: middle;
+.social-links {
+    margin-top: -15px;
 }
 
-.social-links:after {
+.social-links-inner {
+    background: #fff;
     display: inline-block;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    width: 215px;
+    padding: 0 15px;
+}
+
+.social-links-hr {
     height: 3px;
-    background: #ccc;
-    content: "";
-    vertical-align: middle;
+    background-color: #ccc;
 }
 
 .author-image-inner {
