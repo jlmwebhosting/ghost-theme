@@ -3,13 +3,12 @@ SŁIMPØST
 
 Minimal theme for Ghost
 
-**UPDATE 28-10-2013**: Now Slimpost looks great on any mobile device!
-
-<img src="https://raw.github.com/bzhnyau/slimpost/master/S31028-205539.jpg" style="width: 300px;"/>
-
-<img src="https://raw.github.com/bzhnyau/slimpost/master/S31028-205607.jpg" style="width: 300px;"/>
+Demo: [http://slimpost-demo.apps.runkite.com](http://slimpost-demo.apps.runkite.com)
 
 ##Theme preview
 
-![Preview picture](https://raw.github.com/bzhnyau/slimpost/master/preview.png)
-</center>
+![Desktop view](https://raw.github.com/bzhnyau/slimpost/master/screenshots/preview.png)
+
+![Mobile view #1](https://raw.github.com/bzhnyau/slimpost/master/screenshots/S31028-205539.jpg)
+
+![Mobile view #2](https://raw.github.com/bzhnyau/slimpost/master/screenshots/S31028-205607.jpg)
