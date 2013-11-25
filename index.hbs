@@ -5,10 +5,10 @@
 		<div class="logo"{{#if @blog.cover}} style="background-image: url({{@blog.cover}});"{{/if}}>
 			<h1>
 				<a href="{{@blog.url}}">{{@blog.title}}</a>
-			</h1>	
+			</h1>
 
 			<div class="blog-description">
-				<div class="through-line">{{@blog.description}}</div>		
+				<div class="through-line">{{@blog.description}}</div>
 			</div>
 		</div>
 	</header>
@@ -18,10 +18,10 @@
 
 	    <article class="{{post_class}}">
 	        <header class="post-header">
-	            <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>	            
+	            <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
 	            <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
 	        </header>
-	        
+
 	        <section class="post-excerpt">
 	            <p>{{excerpt}}&hellip;</p>
 	        </section>
@@ -31,19 +31,15 @@
 
 	    {{pagination}}
 	</section>
-		
+
 	<footer class="footer">
 		<div class="social-links-hr"></div>
 		<section class="social-links">
 			<div class="social-links-inner">
 				<a class="icon-feed" href="{{@blog.url}}/rss/" target="_blank"></a>
-				<a class="icon-twitter" href="http://twitter.com/" target="_blank"></a>
-				<a class="icon-facebook" href="http://facebook.com/" target="_blank"></a>
-				<a class="icon-google-plus" href="http://plus.google.com/" target="_blank"></a>
-			</div>			
+				<a class="icon-twitter" href="http://twitter.com/philipobenito" target="_blank"></a>
+                <a class="icon-google-plus" href="http://plus.google.com/111055449226917209804" target="_blank"></a>
+			</div>
 		</section>
 	</footer>
 </div>
-<aside class="poweredby">
-	<a class="icon-ghost" href="http://ghost.org" title="Proudly published with Ghost" target="_blank"></a>
-</aside>
