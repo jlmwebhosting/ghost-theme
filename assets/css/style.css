@@ -100,12 +100,12 @@ BODY {
 }
 
 PRE {
-    padding: 15px 20px;  
+    padding: 15px 20px;
     border: 1px solid #f1f1f1;
     background: #f8f8f8;
     color: #333;
     font-size: 13px;
-    font-family: Consolas, monospace;            
+    font-family: Consolas, monospace;
 }
 
 A {
@@ -157,10 +157,10 @@ HR {
 }
 
 .logo {
-    margin-bottom: 20px;            
+    margin-bottom: 20px;
     background-color: #ccc;
     background-position: center center;
-    color: #fff;            
+    color: #fff;
     text-align: center;
 }
 
@@ -198,7 +198,7 @@ HR {
     font-size: 12px;
 }
 
-.post-header {               
+.post-header {
     padding: 10px 0 0px 0;
     text-align: center;
 }
@@ -325,6 +325,7 @@ HR {
 }
 
 .author-profile {
+    margin-bottom: 20px;
     overflow: hidden;
     padding: 15px;
     background-color: #f7f7f7;
