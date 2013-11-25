@@ -95,27 +95,32 @@
     content: "\e004";
 }
 
-BODY {
-    background-color: #ebe8df;
+body {
+    background-color: #ecf0f1;
 }
 
-PRE {
+h1, h2, h3, h4, h5, h6 {
+    color: #34495e;
+}
+
+pre {
     padding: 15px 20px;
+    margin: 0 0 20px 0;
     border: 1px solid #f1f1f1;
-    background: #f8f8f8;
+    background: #ecf0f1;
     color: #333;
     font-size: 13px;
-    font-family: Consolas, monospace;
+    font-family: Monaco, Consolas, monospace;
 }
 
-A {
+a {
     display: inline-block;
-    color: #008ACE;
+    color: #2980b9;
     text-decoration: none;
 }
 
-A:hover {
-    color: #00ABFF;
+a:hover {
+    color: #c0392b;
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -ms-transition-duration: 0.8s;
@@ -123,26 +128,21 @@ A:hover {
     transition-duration: 0.8s;
 }
 
-H1, H2, H3, H4, H5, H6 {
-    font-family: 'Arvo', serif;
-}
-
-BLOCKQUOTE {
+blockquote {
     display: block;
     margin: 0;
     padding: 5px 10px 5px 15px;
-    border-left: 7px solid #f0f0f0;
-    background: #f8f8f8;
-    font-style: italic;
+    border-left: 7px solid #34495e;
+    background: #ecf0f1;
 }
 
-ARTICLE {
+article {
     margin-bottom: 25px;
     padding-bottom: 20px;
     border-bottom: 2px solid #eaeaea;
 }
 
-HR {
+hr {
     height: 11px;
     border: none;
     background: #fff url('../images/hr.png') no-repeat scroll center;
@@ -158,13 +158,13 @@ HR {
 
 .logo {
     margin-bottom: 20px;
-    background-color: #ccc;
+    background-color: #2c3e50;
     background-position: center center;
     color: #fff;
     text-align: center;
 }
 
-.logo H1 {
+.logo h1 {
     display: inline-block;
     margin: 45px 20px 15px 20px;
     padding: 20px 15px 15px 25px;
@@ -175,7 +175,7 @@ HR {
     font-weight: normal;
 }
 
-.logo H1 A {
+.logo h1 a {
     color: #fff;
 }
 
@@ -186,30 +186,27 @@ HR {
     line-height: 25px;
 }
 
-.post-header H2 {
+.post-header h2 {
     margin: 0;
     margin-bottom: 3px;
     font-size: 26px;
-    font-family: 'Arvo', serif;
 }
 
-.post-header TIME {
+.post-header time {
     color: #777;
-    font-size: 12px;
 }
 
 .post-header {
     padding: 10px 0 0px 0;
-    text-align: center;
 }
 
-.post-header H2 A {
-    color: #333;
+.post-header h2 a {
+    color: #34495e;
     text-decoration: none;
 }
 
-.post-header H2 A:hover {
-    color: #777;
+.post-header h2 a:hover {
+    color: #c0392b;
     -webkit-transition-duration: 0.8s;
     -moz-transition-duration: 0.8s;
     -ms-transition-duration: 0.8s;
@@ -217,7 +214,7 @@ HR {
     transition-duration: 0.8s;
 }
 
-.post IMG {
+.post img {
     margin-left: -50px;
     max-width: 650px;
 }
