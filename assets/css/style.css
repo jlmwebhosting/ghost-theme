@@ -343,7 +343,6 @@ pre[class*="language-"] {
     direction: ltr;
     font-family: Consolas, Monaco, 'Andale Mono', monospace;
     text-align: left;
-    text-shadow: 0 -.1em .2em black;
     white-space: pre;
     word-spacing: normal;
 
@@ -359,14 +358,11 @@ pre[class*="language-"] {
 
 pre[class*="language-"],
 :not(pre) > code[class*="language-"] {
-    background:hsl(0, 0%, 8%); /* #141414 */
+    background:#2c3e50; /* #141414 */
 }
 
 /* Code blocks */
 pre[class*="language-"] {
-    border-radius: .5em;
-    border: .3em solid hsl(0,0%,33%); /* #282A2B */
-    box-shadow: 1px 1px .5em black inset;
     margin: .5em 0;
     overflow: auto;
     padding: 1em;
@@ -394,9 +390,9 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 /* Inline code */
 :not(pre) > code[class*="language-"] {
     border-radius: .3em;
-    border: .13em solid hsl(0,0%,33%); /* #545454 */
-    box-shadow: 1px 1px .3em -.1em black inset;
-    padding: .15em .2em .05em;
+    padding: 4px 5px 2px 5px;
+    font-size: 14px;
+    margin: 0 3px;
 }
 
 .token.comment,
