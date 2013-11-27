@@ -2,22 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
     <title>{{meta_title}}</title>
 
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin,cyrillic,cyrillic-ext">
-    <link rel="stylesheet" href="/assets/css/normalize.css">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/mediaqueries.css">
 
     <meta name="description" content="{{meta_description}}" />
 
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
-    {{{body}}}
+    <header class="header">
+        <div class="logo"{{#if @blog.cover}} style="background-image: url({{@blog.cover}});"{{/if}}>
+            <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
+
+            <div class="blog-description">
+                <div class="through-line">
+                    &nbsp;
+                    <i class="fa fa-twitter-square fa-2x">&nbsp;
+                    <i class="fa fa-github-square fa-2x">&nbsp;
+                    <i class="fa fa-linkedin-square fa-2x">&nbsp;
+                    <i class="fa fa-google-plus-square fa-2x">&nbsp;
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        {{{body}}}
+    </div>
 
     <script src="/assets/js/prism.js"></script>
     <script type="text/javascript">
