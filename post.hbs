@@ -5,7 +5,7 @@
 
     <article class="{{post_class}}">
         <header class="post-header">
-            <h2 class="post-title">{{{title}}}</h2>
+            <h1 class="post-title">{{{title}}}</h1>
             <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
         </header>
 
@@ -17,6 +17,7 @@
     {{/post}}
 </section>
 
+{{#if author}}
 <section class="author-profile">
     <div class="author-image">
         <img class="author-image-inner" src="{{author.image}}" />
@@ -26,6 +27,7 @@
         <div class="author-bio-text">{{author.bio}}</div>
     </div>
 </section>
+{{/if}}
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
