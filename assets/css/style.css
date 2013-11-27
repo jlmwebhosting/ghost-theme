@@ -179,7 +179,6 @@ time {
 code[class*="language-"],
 pre[class*="language-"] {
     color: #333;
-    text-shadow: 0 1px white;
     font-family: Consolas, Monaco, 'Andale Mono', monospace;
     direction: ltr;
     text-align: left;
@@ -217,15 +216,14 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 
 /* Code blocks */
 pre[class*="language-"] {
-    padding: 1em;
-    margin: .5em 0;
+    padding: 40px;
+    margin: 0 0 20px 0;
     overflow: auto;
-    border-left: 7px solid #34495e;
 }
 
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
-    background: #ecf0f1;
+    background: #95a5a6;
 }
 
 /* Inline code */
