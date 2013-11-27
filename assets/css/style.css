@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-.articles h2, .articles h3, .articles h4, .articles h5, .articles h6 {
+.articles h1, .articles h2, .articles h3, .articles h4, .articles h5, .articles h6 {
     padding: 0 40px;
 }
 
@@ -143,11 +143,6 @@ b, strong {
     padding: 0 0 40px 0;
     margin: 0 0 40px 0;
     border-bottom: 1px solid #ecf0f1;
-}
-
-.post-header {
-    padding: 0 40px;
-    margin: 0 0 10px 0;
 }
 
 .post-header h2 {
