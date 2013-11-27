@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
 }
 
-.articles h1, .articles h2, .articles h3, .articles h4, .articles h5, .articles h6 {
+.articles h1, .articles h2, .articles h3, .articles h4, .articles h5, .articles h6, time {
     padding: 0 40px;
 }
 
