@@ -187,8 +187,8 @@ time {
 
 .author-bio {
     float: right;
-    font-size: 14px;
-    width: 78%
+    width: 78%;
+    line-height: 20px;
 }
 
 .author-name {
