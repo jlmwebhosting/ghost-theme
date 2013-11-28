@@ -75,7 +75,7 @@ b, strong {
  *******************************************************************************/
 
 .header, .content, .footer {
-    width: 550px;
+    max-width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
