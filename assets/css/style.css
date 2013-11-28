@@ -182,7 +182,7 @@ time {
 
 .author-image {
     float: left;
-    width: 23%;
+    width: 18%;
 }
 
 .author-name {
@@ -191,7 +191,7 @@ time {
 
 .author-bio {
     float: right;
-    width: 73%;
+    width: 78%;
     line-height: 20px;
 }
 
