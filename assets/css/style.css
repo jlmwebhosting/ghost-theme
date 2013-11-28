@@ -163,8 +163,8 @@ time {
 
 .comments {
     padding: 40px 40px 0 40px;
-    background: #2c3e50;
-    color: #fff;
+    background: #fff;
+    color: #333;
 }
 
 .articles img {
@@ -174,7 +174,7 @@ time {
 .author-image-inner {
     display: block;
     max-width: 90%;
-    border: 5px solid #ddd;
+    border: 5px solid #34495e;
     border-radius: 100%;
     background-position: center center;
     background-size: cover;
@@ -199,7 +199,8 @@ time {
     margin-bottom: 0;
     overflow: hidden;
     padding: 40px;
-    background-color: #7f8c8d;
+    background-color: #2c3e50;
+    color: #efefef;
 }
 
 /**
