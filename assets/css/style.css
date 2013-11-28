@@ -295,3 +295,6 @@ pre[class*="language-"] {
 .token.entity {
     cursor: help;
 }
+
+@import url('mediaqueries.css');
+
