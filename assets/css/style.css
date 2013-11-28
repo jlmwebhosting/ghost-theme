@@ -192,14 +192,14 @@ time {
 }
 
 .author-name {
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .author-profile {
-    margin-bottom: 20px;
+    margin-bottom: 0;
     overflow: hidden;
-    padding: 15px;
-    background-color: #ecf0f1;
+    padding: 40px;
+    background-color: #7f8c8d;
 }
 
 /**
