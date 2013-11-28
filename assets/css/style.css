@@ -182,12 +182,16 @@ time {
 
 .author-image {
     float: left;
-    width: 18%;
+    width: 23%;
+}
+
+.author-name {
+    margin-bottom: 15px;
 }
 
 .author-bio {
     float: right;
-    width: 78%;
+    width: 73%;
     line-height: 20px;
 }
 
