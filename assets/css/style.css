@@ -171,6 +171,37 @@ time {
     max-width: 100%;
 }
 
+.author-image-inner {
+    display: block;
+    max-width: 90%;
+    border: 5px solid #ddd;
+    border-radius: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.author-image {
+    float: left;
+    width: 18%;
+}
+
+.author-bio {
+    float: right;
+    font-size: 14px;
+    width: 78%
+}
+
+.author-name {
+    font-weight: bold;
+}
+
+.author-profile {
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 15px;
+    background-color: #ecf0f1;
+}
+
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
