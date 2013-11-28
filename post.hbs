@@ -14,20 +14,20 @@
         </section>
     </article>
 
+    {{#if author}}
+    <section class="author-profile">
+        <div class="author-image">
+            <img class="author-image-inner" src="{{author.image}}" />
+        </div>
+        <div class="author-bio">
+            <div class="author-name">{{author.name}}</div>
+            <div class="author-bio-text">{{author.bio}}</div>
+        </div>
+    </section>
+    {{/if}}
+
     {{/post}}
 </section>
-
-{{#if author}}
-<section class="author-profile">
-    <div class="author-image">
-        <img class="author-image-inner" src="{{author.image}}" />
-    </div>
-    <div class="author-bio">
-        <div class="author-name">{{author.name}}</div>
-        <div class="author-bio-text">{{author.bio}}</div>
-    </div>
-</section>
-{{/if}}
 
 <div class="comments">
     <div id="disqus_thread"></div>
