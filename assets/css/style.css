@@ -343,7 +343,8 @@ pre[class*="language-"] {
     }
 
     .header h1 {
-        font-size: 11px;
+        padding: 9px 7px 7px 12px;
+        font-size: 12px;
     }
 }
 
