@@ -17,13 +17,11 @@
         <div class="logo"{{#if @blog.cover}} style="background-image: url({{@blog.cover}});"{{/if}}>
             <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
 
-            <div class="blog-description">
-                <div class="through-line">
-                    <a href="https://twitter.com/philipobenito"><i class="fa fa-twitter-square fa-lg"></i></a>&nbsp;
-                    <a href="https://github.com/happyaccidents"><i class="fa fa-github-square fa-lg"></i></a>&nbsp;
-                    <a href="http://www.linkedin.com/profile/view?id=237947739"><i class="fa fa-linkedin-square fa-lg"></i></a>&nbsp;
-                    <a href="https://plus.google.com/u/0/111055449226917209804"><i class="fa fa-google-plus-square fa-lg"></i></a>
-                </div>
+            <div class="through-line">
+                <a href="https://twitter.com/philipobenito"><i class="fa fa-twitter-square fa-lg"></i></a>&nbsp;
+                <a href="https://github.com/happyaccidents"><i class="fa fa-github-square fa-lg"></i></a>&nbsp;
+                <a href="http://www.linkedin.com/profile/view?id=237947739"><i class="fa fa-linkedin-square fa-lg"></i></a>&nbsp;
+                <a href="https://plus.google.com/u/0/111055449226917209804"><i class="fa fa-google-plus-square fa-lg"></i></a>
             </div>
         </div>
     </header>
@@ -33,6 +31,7 @@
     </div>
 
     <script src="/assets/js/prism.js"></script>
+    <script src="/assets/js/pace.min.js"></script>
     <script type="text/javascript">
     var _gaq = _gaq || [];
 
@@ -44,6 +43,19 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
+    </script>
+
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'happyaccidentsme'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
     </script>
     {{ghost_foot}}
 </body>
