@@ -344,7 +344,8 @@ pre[class*="language-"] {
 
     .header h1 {
         padding: 9px 7px 7px 12px;
-        font-size: 12px;
+        font-size: 14px;
+        letter-spacing: 5px;
     }
 }
 
