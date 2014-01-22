@@ -1,0 +1,10 @@
+<section class="articles">
+    {{#foreach posts}}
+
+    <article class="article {{post_class}}">
+        <a href="{{url}}"><h2 class="post_title">{{{title}}}</h2></a>
+        <i class="fa fa-clock-o"></i> &nbsp; <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> &nbsp; <i class="fa fa-comments"></i> &nbsp; <a href="{{url}}#disqus_thread" class="comment_link">COMMENTS</a>
+    </article>
+
+    {{/foreach}}
+</section>

@@ -1,24 +1,11 @@
 {{!< default}}
 
-<section class="articles">
-	{{#foreach posts}}
+<header>
+    {{> header}}
+</header>
 
-    <article class="{{post_class}}">
-        <header class="post_header">
-            <h2 class="post_title"><a href="{{url}}">{{{title}}}</a></h2>
-            <i class="fa fa-clock-o"></i> &nbsp; <time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time> &nbsp; <i class="fa fa-comments"></i> &nbsp; <a href="{{url}}#disqus_thread" class="comment_link">COMMENTS</a>
-        </header>
-
-        <section class="post_excerpt">
-            <p>{{excerpt}}&hellip;</p>
-        </section>
-
-        <section class="tags">
-            <i class="fa fa-tag"></i> &nbsp; {{#tags}}{{#if @last}}{{tag}}, &nbsp; {{else}}{{tag}}{{/if}}{{/tags}}
-        </section>
-    </article>
-
-    {{/foreach}}
+<section class="content">
+    {{> article-list}}
 
     {{pagination}}
 </section>

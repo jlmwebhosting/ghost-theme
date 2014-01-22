@@ -13,22 +13,8 @@
     {{ghost_head}}
 </head>
 <body class="{{body_class}}">
-    <header class="header">
-        <div class="logo"{{#if @blog.cover}} style="background-image: url({{@blog.cover}});"{{/if}}>
-            <h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
 
-            <div class="through-line">
-                <a href="https://twitter.com/philipobenito"><i class="fa fa-twitter-square fa-lg"></i></a>&nbsp;
-                <a href="https://github.com/happyaccidents"><i class="fa fa-github-square fa-lg"></i></a>&nbsp;
-                <a href="http://www.linkedin.com/profile/view?id=237947739"><i class="fa fa-linkedin-square fa-lg"></i></a>&nbsp;
-                <a href="https://plus.google.com/u/0/111055449226917209804"><i class="fa fa-google-plus-square fa-lg"></i></a>
-            </div>
-        </div>
-    </header>
-
-    <div class="content">
-        {{{body}}}
-    </div>
+    {{{body}}}
 
     <script src="/assets/js/prism.js"></script>
     <script src="/assets/js/pace.min.js"></script>
@@ -58,5 +44,6 @@
     }());
     </script>
     {{ghost_foot}}
+
 </body>
 </html>
